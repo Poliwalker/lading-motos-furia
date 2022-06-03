@@ -71,12 +71,17 @@ body {
 .li-link{
     gap: 30px;
     margin: auto;
-
+    order: 2;
 }
 
     .li-link a{
     font-size: 10px;
     }
+
+.nav-icon {
+    display: none;
+}
+
 }
 
 
