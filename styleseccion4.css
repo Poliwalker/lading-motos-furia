@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Cabin:ital,wght@1,500&family=Fira+Sans&family=IBM+Plex+Serif:ital,wght@1,100&family=Inconsolata:wght@300&family=Kanit:wght@500&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital@1&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.seccion4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 1rem;
+    width: 100%;
+    background-color: aliceblue;
+    border-top: 1px solid #000;
+}
+
+.seccion4-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    gap:50px;
+}
+
+.seccion4 h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.seccion4 h3{
+    max-width: 250px;
+}
+
+.seccion4-container p{
+    max-width: 250px;
+    margin: 20px auto;
+}
+
+.div-container-span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion4-container span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #5cb85c;
+    margin-bottom: 30px;
+   }
+    
+    
+@media screen and (min-width:1024px){
+    .seccion4{
+        padding: 12rem 2rem 10rem;
+    }
+    
+    .seccion4-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 100px;
+    }
+
+    .seccion4 h2{
+        font-size: 70px;
+        font-family: 'kanit';
+        font-weight: 700;
+    }
+
+    .seccion4 h3{
+        margin: 50px auto 100px;
+        font-size: 40px;
+        max-width: 100%;
+        font-family: 'Inconsolata';
+        font-weight: 300;
+    }
+
+    .seccion4-container h4{
+        font-size: 30px;
+    }
+
+    .seccion4-container p{
+        font-size: 20px;
+        font-family: 'Inconsolata';
+        font-weight: 600;
+    }
+}
