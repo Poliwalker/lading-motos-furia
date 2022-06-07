@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Cabin:ital,wght@1,500&family=Fira+Sans&family=IBM+Plex+Serif:ital,wght@1,100&family=Inconsolata:wght@300&family=Kanit:wght@500&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital@1&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Cabin:ital,wght@1,500&family=Fira+Sans&family=IBM+Plex+Serif:ital,wght@1,100&family=Inconsolata:wght@300&family=Kanit:wght@500&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital@1&family=Patrick+Hand&family=Poppins:ital,wght@1,600&family=Source+Code+Pro:ital,wght@1,600&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -30,15 +30,18 @@
 .seccion4 h2{
     font-size: 35px;
     margin-bottom: 25px;
+    font-family: 'Poppins';
 }
 
 .seccion4 h3{
     max-width: 250px;
+    font-family: 'Inconsolata';
 }
 
 .seccion4-container p{
     max-width: 250px;
     margin: 20px auto;
+    font-family: 'Inconsolata';
 }
 
 .div-container-span{
@@ -60,11 +63,17 @@
     background: #5cb85c;
     margin-bottom: 30px;
    }
+
+   .seccion4-container h4{
+    font-family: 'poppins';
+    font-weight: 400;
+   }
     
     
 @media screen and (min-width:1024px){
     .seccion4{
         padding: 12rem 2rem 10rem;
+        color:#767efd
     }
     
     .seccion4-container{
@@ -78,6 +87,7 @@
         font-size: 70px;
         font-family: 'kanit';
         font-weight: 700;
+        font-family: 'Poppins';
     }
 
     .seccion4 h3{
@@ -86,15 +96,22 @@
         max-width: 100%;
         font-family: 'Inconsolata';
         font-weight: 300;
+        
     }
 
     .seccion4-container h4{
         font-size: 30px;
+        font-family: 'poppins';
     }
 
     .seccion4-container p{
-        font-size: 20px;
+        font-size: 22px;
         font-family: 'Inconsolata';
-        font-weight: 600;
+        font-weight: 400;
+    }
+
+    .seccion4-container span{
+        background-color:rgb(196, 189, 189);
+        color:#767efd;
     }
 }
