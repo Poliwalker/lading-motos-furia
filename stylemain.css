@@ -15,10 +15,7 @@
     gap: 100px;
 	border-bottom: 1px solid black;
 	padding: 5rem 2rem 11rem;
-	background-image: url(assets/california-road-highway-mountains-63324.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-color: #b1ffa1;
 
 }
 
@@ -136,14 +133,14 @@ span{
 		gap: 50px;
 		border-bottom: 1px solid black;
 		padding: 5rem 2rem 11rem;
-		background-image: url(./assets/carretera-vertical-775199.jpeg);
-		background-position: center;
+		background-color: #b1ffa1;
 	
 	}
 	
 	.presentation {
 		max-width: auto;
 		margin-right: auto;
+		max-width: 300px;
 	}
 	
 	.presentation h1 {
@@ -153,11 +150,11 @@ span{
 	.presentation h2 {
 		font-size: 15px;
 		padding: 10px 0;
-	
 	}
 	
 	.main-link {
 		padding: 10px 30px;
+
 	}
 	
 	.div-img{
@@ -165,8 +162,8 @@ span{
 	}
 	
 	.div-img img {
-		width: 300px;
-		height: 400px;
+		width: 200px;
+		height: 200px;
 		
 	}
 

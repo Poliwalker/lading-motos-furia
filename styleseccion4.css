@@ -25,6 +25,7 @@
     text-align: center;
     margin-top: 40px;
     gap:50px;
+    
 }
 
 .seccion4 h2{
@@ -36,6 +37,7 @@
 .seccion4 h3{
     max-width: 250px;
     font-family: 'Inconsolata';
+  
 }
 
 .seccion4-container p{
@@ -67,7 +69,10 @@
    .seccion4-container h4{
     font-family: 'poppins';
     font-weight: 400;
+    max-width: 300px;
    }
+
+
     
     
 @media screen and (min-width:1024px){
