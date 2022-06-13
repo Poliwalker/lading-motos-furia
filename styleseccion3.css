@@ -14,7 +14,7 @@
     text-align: center;
     padding: 5rem 1rem;
     width: 100%;
-    background-color: aliceblue;
+    background: var(--verde2);
 }
 
 .seccion3-container{
@@ -35,12 +35,15 @@
     margin-bottom: 25px;
     font-family: 'poppins';
     font-weight: 700;
+    color: var(--black);
     
 }
 
 .seccion3 h3{
     max-width: 250px;
     font-family: 'Inconsolata';
+    color: var(--black);
+    
 }
 
 .seccion3-container p{
@@ -68,7 +71,7 @@
 
 .div-container-s3 i{
     font-size: 30px;
-    color: green;
+    color: var(--verde3);
     margin: 20px auto;
     animation-duration: 2s;
 }
@@ -82,7 +85,7 @@
     .seccion3{
         
         padding: 10rem 2rem 10rem;
-        background-color:#1e1f26;
+        background-color: var(--verde2);
 
     }
 
@@ -97,7 +100,6 @@
         text-transform: uppercase;
         font-style: oblique;
         letter-spacing: 5px;
-        color: beige;
     }
 
     .seccion3 h3{
@@ -105,7 +107,7 @@
         margin-top: 25px;
         font-size: 40px;
         font-weight: 300;
-        color: beige;
+        color: var(--black);
         max-width: 550px;
     }
     /* fin titulos principio circulos */

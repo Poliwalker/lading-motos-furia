@@ -51,17 +51,11 @@ body {
     color: #fff;
 }
 
-.nav-icon i{
-    color: rgb(79, 187, 58);
-    font-size: 30px;
-    margin-right: 20px;
-}
-
 .menu-icon i{
+    display: none;
     color: rgb(79, 187, 58);
     font-size: 30px;
-    display: none;
-}
+  }
 
 
 @media screen and (max-width:450px){
@@ -71,7 +65,10 @@ body {
         justify-content: space-between;
         height: auto;
         width: 100%;
-        position: static;
+        position: fixed;
+        top: 0;
+        opacity: 1;
+        
 }
 
 
@@ -82,18 +79,16 @@ body {
     display: none;
 }
 
-.menu-icon i{ color: rgb(79, 187, 58);
+.menu-icon i{ 
+    color: rgb(79, 187, 58);
     font-size: 30px;
-    display: flex;}
+    display: flex;
+}
    
 
     .li-link a{
     font-size: 10px;
     }
-
-.nav-icon {
-    display: none;
-}
 
 }
 
