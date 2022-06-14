@@ -16,13 +16,21 @@ body {
     align-items: center;
     height: 100px;
     width: 100%;
+    max-width: 100%;
     background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0;
     box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.58);
     opacity: 0.9;
     z-index: 10;
+}
 
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ 
 }
 
 .logo {
@@ -30,37 +38,44 @@ body {
     width:100px;
 }
 
+.fa-bars{
+    color: rgb(79, 187, 58);
+    font-size: 30px;
+}
 
-.li-link {
+.menu-toggle{
+    display: none;
+}
+
+.menu-toggle-div{
+    display: none;
+}
+
+.list{
     display: flex;
-    text-align: center;
-    padding: 15px;
-    margin: 40px;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
     gap: 100px;
 }
 
-.li-link a{
+.list li a{
     color: rgb(79, 187, 58);
+    list-style: none;
     text-decoration: none;
-    font-family: 'PT serif';
-    font-size: 15px;
 }
 
-.li-link a:hover{
-    color: #fff;
+.list li a:hover{
+    color: aliceblue;
 }
 
-.menu-icon i{
-    display: none;
-    color: rgb(79, 187, 58);
-    font-size: 30px;
-  }
+
+
+
 
 
 @media screen and (max-width:450px){
     .header {
-        
+
         flex-direction: row;
         justify-content: space-between;
         height: auto;
@@ -68,29 +83,50 @@ body {
         position: fixed;
         top: 0;
         opacity: 1;
-        
+
 }
 
+.menu-toggle-div{
+    display: block;
+}
 
-.li-link{
-    gap: 30px;
-    margin: auto;
-    order: 2;
+.menu-toggle{
     display: none;
-}
+ }
 
-.menu-icon i{ 
-    color: rgb(79, 187, 58);
-    font-size: 30px;
+ .toggle{
+    display: none;
+    text-align: center;
+    background-color: black;
+    font-weight: 600;
+    width: 100%;
+ }
+
+ .toggle li {
     display: flex;
-}
-   
+    justify-content: center;
+    padding: 0 10rem;
+  }
 
-    .li-link a{
-    font-size: 10px;
-    }
+  .menu-toggle:checked + .toggle {
+    display: block;
+  }
 
+  .list{
+    gap: 10px;
+  }
+
+  .menu-toggle-div{
+    position: relative;
+  }
+
+  .list{
+    position: absolute;
+    right: 0px;
+    top: 99px;
+  }
 }
+    
 
 
 

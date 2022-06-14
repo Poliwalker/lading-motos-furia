@@ -160,8 +160,7 @@ font-family: 'poppins';
         width: 300px;
         margin-top: 50px;
     }
-
-    .footer-link{
-    justify-content: space-around;
-    }
+.footer-link{
+    gap:50px;
+}
 }
