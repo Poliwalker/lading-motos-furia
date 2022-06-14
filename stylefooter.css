@@ -110,6 +110,21 @@ font-family: 'poppins';
     }
 }
 
+.fa-facebook-square{
+    font-size: 50px;
+    color: blue;
+}
+
+.fa-instagram{
+    font-size: 50px;
+    color: rgb(228, 15, 115);
+}
+
+.fa-twitter{
+    font-size: 50px;
+    color: rgb(40, 191, 242);
+}
+
 @media (max-width:450px) {
 
     .footer{

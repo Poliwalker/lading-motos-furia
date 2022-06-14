@@ -35,28 +35,106 @@
     height: 300px;
 }
 
+
 .logo-warehouse:hover{
-    opacity: 0.5;
-    transform: scale(1.1);  
-}
-
-
-.logo-warehouse{
     animation-name: Motos;
     animation-duration: 2s;
     position: relative;
     animation-iteration-count: infinite;
+    opacity: 0.5;
 }
 
 @keyframes Motos{
     0%{
-        transform: scalex(1.0);
+        transform: scale(1.0);
     }
 
     100%{
-        transform: scalex(1.1);
+        transform: scale(1.1);
     }
 } 
+
+.div-container-imgs5{
+    position: relative;
+}
+
+.button-s5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yamaha{
+    background-color:blue;
+}
+
+.kawasaki{
+    background-color: greenyellow;
+}
+
+.honda{
+    background-color: red;
+}
+
+.suzuki{
+    background-color:blue;
+}
+
+.ducati{
+    background-color: rgb(131, 0, 0);
+}
+
+.ktm{
+    background-color: orange;
+}
+
+.button-s5 button{
+    position:absolute;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Inconsolata';
+    font-weight: 800;
+    cursor: pointer;
+    top: 10px;
+    left: 2px;
+    display: none;
+}
+
+
+
+.div-container-imgs5:hover .yamaha{
+    display: flex;
+    transition: 0.5s;
+}
+
+.div-container-imgs5:hover .kawasaki{
+    display: flex;
+    transition: 0.5s;
+}
+
+.div-container-imgs5:hover .honda{
+    display: flex;
+    transition: 3s;
+}
+
+.div-container-imgs5:hover  .suzuki{
+    display: flex;
+    transition: 3s;
+}
+
+.div-container-imgs5:hover  .ducati{
+    display: flex;
+    transition: 3s;
+}
+
+.div-container-imgs5:hover  .ktm{
+    display: flex;
+    transition: 3s;
+}
+
+
 
 
 .div-container-s5{
